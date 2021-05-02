@@ -1,4 +1,5 @@
-FROM oraclelinux:7
+#FROM oraclelinux:7
+FROM store/oracle/serverjre:8
 MAINTAINER Roberto Porfiro <roberto.porfiro@gmail.com>
 
 ENV _SCRATCH /tmp/scratch
